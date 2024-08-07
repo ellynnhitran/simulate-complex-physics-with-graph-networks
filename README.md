@@ -46,6 +46,7 @@ V. Improve the GNN model (Novelty):
     + Settings: number of steps= 2e2, batch_size = 2, number of rollouts = 5
 
 VI. Results
+
 I successfully reproduced the paper Learning to Simulate Complex Physics with Graph Networks research by DeepMind and completed all project requirements. I implemented 10+ experiments, evaluated 6 of them and my improved training model achieved a mean squared error (MSE) of 0.012 on the test set, which was similar to the result reported by Gonzalez et al. Our proposed GNN model achieved an MSE of 0.885 on the test set, which was lower than the MSE achieved by the reproduced model. This demonstrated the effectiveness of our proposed method in improving the accuracy of fluid flow simulations. I also compared different experiments with various optimizers and hyperparameters in the figure below.
 
 VI. Evaluation
