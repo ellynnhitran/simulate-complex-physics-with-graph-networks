@@ -58,7 +58,6 @@ VI. Evaluation
     + Active Learning:  Active learning is a process where the model is used to select the most informative examples from a pool of unlabeled data. By selecting the most informative examples, teams can reduce the amount of labeled data needed to achieve good performance. This approach can be particularly useful in situations where labeling data is expensive or time-consuming.
 
 VII. Contribution, Code and Presentation
-Contribution: I as the only member in the project have the following responsibilities:
 - Implemented the original GNN model proposed in the paper, including the data preprocessing, GNN architecture, and evaluation.
 - Conducted experiments to validate the implementation of the original GNN model and compared the results to the original paper.
 - Proposed the new GNN model with experiments of optimizers and hyperparameter tuning.
