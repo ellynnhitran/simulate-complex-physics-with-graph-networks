@@ -68,6 +68,7 @@ VII. Contribution, Code and Presentation
 - Presentation slide: https://docs.google.com/presentation/d/1rK1TkxmZT3XN5TI4DpRLbZz_19kLjKbP/edit?usp=sharing&ouid=107420819621565275453&rtpof=true&sd=true
 
 VIII. Conclusion 
+
 In this project, I aimed to reproduce the Physics Graph Network (PGN) architecture presented in the Learning to Simulate Complex Physics with Graph Networks research by Google DeepMind, and to improve upon it by developing a better GNN model for fluid flow learning. To achieve these goals, I used a dataset of physical interactions captured using a high-speed camera system, and preprocessed the data into a graph representation suitable for input into the PGN.
 Through my experiments, I was able to successfully reproduce the architecture, and O also developed a novel GNN model for fluid flow learning that outperformed the PGN on several evaluation metrics. Our results demonstrate the potential for GNNs to simulate complex physical systems, and suggest that there is still much room for improvement in this area.
 In terms of future work, there are several directions that could be pursued. First, further improvements could be made to the GNN model we developed for fluid flow learning. Second, my model could be extended to simulate other physical systems beyond fluid flow, such as cloth or particles. My work demonstrates the ability of GNNs to model complex physical systems and provides a starting point for future research in this area. Additionally, the novel GNN model for fluid flow learning may have future practical applications in fields that require simulating complex physics, such as climate modeling and drug discovery, fluid dynamics and engineering.
@@ -87,7 +88,9 @@ Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). 
 
 Battaglia et al. (2018), "Relational inductive biases, deep learning, and graph networks", arXiv preprint arXiv:1806.01261
 A comprehensive survey on Graph Neural Networks - IEEE Xplore. (n.d.). Retrieved February 3, 2023, from https://ieeexplore.ieee.org/document/9046288 
-"Graph Convolutional Networks for Complex Physical Systems" (Sanchez-Gonzalez et al., 2019) 4th inter-experiment Machine Learning Workshop. Indico. (n.d.). Retrieved February 3, 2023, from https://indico.cern.ch/event/852553/contributions/4062226/ 
+"Graph Convolutional Networks for Complex Physical Systems" (Sanchez-Gonzalez et al., 2019) 4th inter-experiment Machine Learning Workshop. 
+
+Indico. (n.d.). Retrieved February 3, 2023, from https://indico.cern.ch/event/852553/contributions/4062226/ 
 Stanford Computer Science. (n.d.). Retrieved February 3, 2023, from https://cs.stanford.edu/people/jure/pubs/learning_to_simulate-icml20.pdf 
 
 
