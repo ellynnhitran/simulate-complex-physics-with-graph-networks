@@ -70,9 +70,7 @@ VII. Contribution, Code and Presentation
 - Conducted experiments to validate the implementation of the original GNN model and compared the results to the original paper.
 - Proposed the new GNN model with experiments of optimizers and hyperparameter tuning.
 - Conducted experiments to evaluate the proposed GNN model, including experimenting optimizers, tuning the hyperparameters and comparing the results to the original method.
-- Wrote proposals, final report, did presentation slides and presented with class.
-- Code: https://ellynnhitran-redesigned-cod-vg9r76wqqrvc64x7.github.dev/
-- Presentation slide: https://docs.google.com/presentation/d/1rK1TkxmZT3XN5TI4DpRLbZz_19kLjKbP/edit?usp=sharing&ouid=107420819621565275453&rtpof=true&sd=true
+- Wrote proposals, final report, did presentation slides and presented about project.
 
 
 VIII. Conclusion 
