@@ -73,12 +73,18 @@ Through my experiments, I was able to successfully reproduce the architecture, a
 In terms of future work, there are several directions that could be pursued. First, further improvements could be made to the GNN model we developed for fluid flow learning. Second, my model could be extended to simulate other physical systems beyond fluid flow, such as cloth or particles. My work demonstrates the ability of GNNs to model complex physical systems and provides a starting point for future research in this area. Additionally, the novel GNN model for fluid flow learning may have future practical applications in fields that require simulating complex physics, such as climate modeling and drug discovery, fluid dynamics and engineering.
 
 IX. References
+
 Kipf, T. N., & Welling, M. (2017). Semi-supervised classification with graph convolutional networks. In Proceedings of the International Conference on Learning Representations (ICLR).
 Battaglia, P. W., Hamrick, J. B., Bapst, V., Sanchez-Gonzalez, A., Zambaldi, V., Malinowski, Pascanu, R, et al (2018). Learning stable and interpretable dynamics with recurrent neural networks. arXiv preprint arXiv:1709.05584.
+
 Raissi, M., Perdikaris, P., & Karniadakis, G. E. (2019). Physics-informed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations. Journal of Computational Physics, 378, 686-707.
+
 Gonzalez, J., Schoenholz, S. S., Kim, Y., & Cubuk, E. D. (2019). Learning to simulate complex physics with graph networks. arXiv preprint arXiv:1904.04402.
+
 Huang, H., Li, X., Padoan, R., & Meng, X. (2019). Fluidnet: An augmented graph convolutional network for 3d physical field learning. arXiv preprint arXiv:1907.04993.
+
 Gilmer, J., Schoenholz, S. S., Riley, P. F., Vinyals, O., & Dahl, G. E. (2017). Neural message passing for quantum chemistry. In Proceedings of the 34th International Conference on Machine Learning-Volume 70 (pp. 1263-1272).
+
 Battaglia et al. (2018), "Relational inductive biases, deep learning, and graph networks", arXiv preprint arXiv:1806.01261
 A comprehensive survey on Graph Neural Networks - IEEE Xplore. (n.d.). Retrieved February 3, 2023, from https://ieeexplore.ieee.org/document/9046288 
 "Graph Convolutional Networks for Complex Physical Systems" (Sanchez-Gonzalez et al., 2019) 4th inter-experiment Machine Learning Workshop. Indico. (n.d.). Retrieved February 3, 2023, from https://indico.cern.ch/event/852553/contributions/4062226/ 
