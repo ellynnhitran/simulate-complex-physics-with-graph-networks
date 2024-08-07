@@ -24,7 +24,6 @@ IV. Methodology
 
 V. Improve the GNN model (Novelty): 
  1. Optimizers selection
-  *Why needs to change?
   - Currently, DeepMind is using Adam Optimizer as the main methodology to optimize its model parameters.
   - Problem: However, according to Towards AI, Adam Optimizer should not be the default learning algorithm as Adam has weak empirical generalization capability (though fast in convergence).
   - Article published in September 2019, “Bounded Scheduling Method for Adaptive Gradient Methods” investigates the factors that lead to poor performance of Adam while training complex neural networks.
@@ -38,7 +37,6 @@ V. Improve the GNN model (Novelty):
     + Setting: number of steps=2e2, latent_size=128, hidden_size=128, hidden_layers=2, learning_rate = 1e-4 - min_lr (1e-6), batch_size = 1
   
   2. Hyperparameter tuning 
-  *Why needs to change?
   -  Problem: Battaglia et al in "Relational inductive biases, deep learning, and graph networks" indicate that there is no single set of hyperparameters that works well across all problems, and suggest using a combination of grid search, random search, and expert intuition to determine the optimal values.
   - The authors in "A comprehensive survey on graph neural networks" (Wu et al., 2020) suggest that hyperparameter tuning is often a crucial step in getting good performance from graph neural networks, and that grid search, random search, or Bayesian optimization can be used to find the best hyperparameters for a given task.
   *Methodology: The main methodology is grid search with the following steps:
